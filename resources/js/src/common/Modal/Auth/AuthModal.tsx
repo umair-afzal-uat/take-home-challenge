@@ -162,7 +162,7 @@ const AuthModal: React.FC = () => {
                                                         <input type="email" name="email" value={signupData.email} onChange={handleSignupChange} placeholder="Email"
                                                             required />
                                                         <input type="password" name="password" value={signupData.password} onChange={handleSignupChange} placeholder="Password" required />
-                                                        <input type="password" name="passwordConfirmation" value={signupData.passwordConfirmation} onChange={handleSignupChange} placeholder="Password" required />
+                                                        <input type="password" name="passwordConfirmation" value={signupData.passwordConfirmation} onChange={handleSignupChange} placeholder="Confirm Password" required />
                                                         <button type="submit">Sign up</button>
                                                     </form>
                                                 </div>
