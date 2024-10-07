@@ -63,6 +63,8 @@ class FetchNewsAPI extends Command
                             'content' => $article['content'],
                             'source' => $article['source']['name'],
                             'category_id' => $category['id'],
+                            'api_source' => 'https://newsapi.org/v2/everything/',
+
                         ]);
                     }
 
